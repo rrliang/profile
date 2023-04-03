@@ -63,4 +63,6 @@ window.onload = () => {
         INFORMATIONBODY.classList.add(`hidden`);
         CONTACTBODY.classList.remove(`hidden`);
     };
+
+    INFORMATIONBUTTON.click()
 };
