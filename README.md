@@ -1,6 +1,7 @@
 # Rachel Liang Portfolio
 
-* **Learn a little bit more about me!**
+* **Learn a little bit more about me!**  
+[Find digital resume here](rrliang.github.io/profile/)
 
 ## ❖・Introduction・❖
 ### About this portfolio
@@ -8,4 +9,3 @@
 * Holds skillset details
 * Some fun facts about me!  
 
-### rrliang.github.io/profile/
