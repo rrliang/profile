@@ -6,4 +6,6 @@
 ### About this portfolio
 * Shares some of my projects
 * Holds skillset details
-* Some fun facts about me!
+* Some fun facts about me!  
+
+### rrliang.github.io/profile/
