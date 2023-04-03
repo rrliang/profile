@@ -1,16 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rachel Liang | Portfolio</title>
-    <link href="https://fonts.gstatic.com" crossorigin rel="preconnect" >
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-    <link href="css/stylesheet.css" rel="stylesheet">
-  </head>
-  <body>
-    Hello! My name is Rachel Liang.
-    <button id = "pressMe">Press me! </button>
-    <script src="js/app.js" defer></script>
-  </body>
+    <title>Digital Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header-container">
+        <div>
+            <h1>
+                Rachel Liang
+            </h1>
+        </div>
+        <div>
+            <button id="information-button" type="button" class="button">
+                Information
+            </button>
+        </div>
+        <div>
+            <button id="cv-button" type="button" class="button">
+                Resume/CV
+            </button>
+        </div>
+        <div>
+            <button id="contact-button" type="button" class="button">
+                Contact
+            </button>
+        </div>
+    </div>
+    <div class="body-container">
+        <div id="information-container">
+
+        </div>
+        <div id="cv-container">
+            <h2>
+                Education
+            </h2>
+                <h3>University of Hartford</h3>
+                <p><span class="semi-highlighted-text">Major: BS in Computer Science and Engineering</span></p>
+                <p><span class="semi-highlighted-text">Graduation date: May 2022</span></p>
+                <p><span class="semi-highlighted-text">GPA: 3.97, summa cum laude</span></p>
+
+                <h3>Computer Science classes:</h3>
+                <p><span class="semi-highlighted-text">CS 114- </span><span class="normal-text">Basics of Java (classes, objects, loops, basic problem solving skills)</span></p>
+                <p><span class="semi-highlighted-text">CS 115- </span><span class="normal-text">More Java concepts (basic data structures, algorithms, complex problem solving skills)</span></p>
+                <p><span class="semi-highlighted-text">CS 220- </span><span class="normal-text">Data structures explored fully (stacks, queues, maps, trees, complex algorithms)</span></p>
+                <p><span class="semi-highlighted-text">CS 320- </span><span class="normal-text">Exploring programming languages in more depth (Prolog, Ml, Cobol, Java, Python, C)</span></p>
+                <p><span class="semi-highlighted-text">CS 211- </span><span class="normal-text">CPU and ALU design and operation (architecture and  assembly language, specifics in hardware)</span></p>
+                <p><span class="semi-highlighted-text">CS 275- </span><span class="normal-text">Introduction to internet programming (javascript, html, css, gult, listrs, Git)</span></p>
+
+                <h3>Engineering classes:</h3>
+                <p><span class="semi-highlighted-text">ES 143P- </span><span class="normal-text">Basics of Engineering and Design (Arduino, C#, breadboards, basic sensors)</span></p>
+                <p><span class="semi-highlighted-text">ES 242P- </span><span class="normal-text">More complex concepts of Engineering and Design (3D printing, resistors, Raspberry Pi, circuits)</span></p>
+                <p><span class="semi-highlighted-text">ECE 231- </span><span class="normal-text">Introduction to digital system logic (Altera Quartus Prime, Full Adder, logic gates, microprocessors)</span></p>
+                <p><span class="semi-highlighted-text">ECE 231- </span><span class="normal-text">Introduction to digital system logic (Altera Quartus Prime, Full Adder, logic gates, microprocessors)</span></p>
+                <p><span class="semi-highlighted-text">ECE 255- </span><span class="normal-text">Exploring circuits and electronics in depth (voltage, current, specifics in DC and AC circuits)</span></p>
+                <p><span class="semi-highlighted-text">CSE 471W- </span><span class="normal-text">Computer science and engineering final project (solidifying all previously learned knowledge)</span></p>
+
+            <h2>
+                Experience
+            </h2>
+
+            <h3>Internship at General Dynamics, Electric Boat: </h3><span class="semi-highlighted-text">(Summer 2020, Winter 2020, Summer 2021)</span>
+            <p><span class="normal-text">Hired as a software engineer intern in EB, I have learned many skills such as working with a software development team, experiencing and contributing to the flow of work via GItLab, and problem solving complex issues within Java programs under strict deadlines.</span></p>
+
+            <h3>Precepting for CS 114 class at the University of Hartford: </h3><span class="semi-highlighted-text">(School terms 2019-2020)</span>
+            <p><span class="normal-text">Precepting for professor Sheikh Islam entailed helping the professor with the course, tutoring students in the class with java programming and programming concepts, checking and regulating which students turned in what, helping the professor convey messages to the students.</span></p>
+
+            <h3>Tutoring under the University of Hartford's Tutoring Center: </h3><span class="semi-highlighted-text">(School terms 2019-2021)</span>
+            <p><span class="normal-text">Tutoring involved receiving student's requests via the Center of Student Success for help with computer science or engineering related courses.</span></p>
+
+            <h2>
+                Awards
+            </h2>
+
+            <h3>Computer Science and Engineering Class Awards: </h3><span class="semi-highlighted-text">(School years 2020 and 2021)</span>
+            <p><span class="normal-text">The Computer Science and Engineering Class Awards, given to exceptional students of the Computer Science and Engineering major in the University of Hartford, celebrates those who have caught the attention of teachers through hard work and effort.</span></p>
+
+            <h3>Presidents Honor: </h3><span class="semi-highlighted-text">(School years 2019-2021)</span>
+            <p><span class="normal-text">The presidents honor award is given to University of Hartford students that maintain a GPA higher than 3.75 for a semester.</span></p>
+
+            <h3>Regents' Scholarship: </h3><span class="semi-highlighted-text">(School terms 2019-2023)</span>
+            <p><span class="normal-text">The Regent's Scholarship is awarded to University of Hartford undergraduates. This scholarship is awarded by merit, and is associated with the highest excellence compared to other University scholarships.</span></p>
+
+            <h3>Science, Technology, Engineering and Math (Stem) Scholarship: </h3><span class="semi-highlighted-text">(School terms 2019-2020)</span>
+            <p><span class="normal-text">The Stem Scholarship, exclusive to Montville High School students, is a competitive scholarship only awarded to one student. The scholarship requires a written essay on the topics of STEM.​</span></p>
+        </div>
+        <div id="contact-container">
+            Contact me at my email: rachelrliang@gmail.com, or my phone at 860-222-0886.
+        </div>
+    </div>
+    <script rel="script" src="js/app.js"></script>
+</body>
 </html>
