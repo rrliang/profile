@@ -7,6 +7,22 @@ body {
     /* margin-left: 10%; */
 }
 
+.button-link {
+    text-decoration: none;
+    color: #b89c9c;
+    background-color: #452222;
+    padding: 10px 10px 10px 10px;
+    /* border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC; */
+}
+
+a:hover {
+    color: #231111;
+    background-color: #b89c9c;
+}
+
 button {
     color: #b89c9c;
     background-color: #452222;
