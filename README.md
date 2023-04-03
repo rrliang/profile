@@ -1,7 +1,7 @@
 # Rachel Liang Portfolio
 
 * **Learn a little bit more about me!**  
-[Find digital resume here](rrliang.github.io/profile/)
+[Find digital resume here](https://rrliang.github.io/profile/)
 
 ## ❖・Introduction・❖
 ### About this portfolio
