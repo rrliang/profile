@@ -7,6 +7,27 @@ window.onload = () => {
     const CVBODY = document.getElementById(`cv-container`);
     const CONTACTBODY = document.getElementById(`contact-container`);
 
+    const FORMFIRSTNAME = document.getElementById(`form-first-name`);
+    const FORMLASTNAME = document.getElementById(`form-last-name`);
+    const FORMEMAIL = document.getElementById(`form-email`);
+    const FORMPHONE = document.getElementById(`form-phone`);
+    const FORMADDRESS = document.getElementById(`form-address`);
+    const FORMMESSAGE = document.getElementById(`form-message`);
+
+    let formInputs = [FORMFIRSTNAME, FORMLASTNAME, FORMEMAIL, FORMPHONE, FORMADDRESS, FORMMESSAGE];
+
+    formInputs.forEach(element => {
+        element.addEventListener(`click`, () =>{
+            formInputs.forEach(innerElement => {
+                if (element == innerElement) {
+                    innerElement.classList.add(`form-active`);
+                } else {
+                    innerElement.classList.remove(`form-active`);
+                }
+            });
+        }, false);
+    });
+
     let headerButtons = [INFORMATIONBUTTON, CVBUTTON, CONTACTBUTTON];
 
     headerButtons.forEach(element => {
@@ -28,7 +49,7 @@ window.onload = () => {
         element.classList.add(`button-clicked`);
         displayCorrectBody(element)
     };
-    
+
     let displayCorrectBody = (bodyType) => {
         switch(bodyType) {
             case INFORMATIONBUTTON:
@@ -57,7 +78,7 @@ window.onload = () => {
         CONTACTBODY.classList.add(`hidden`);
         CVBODY.classList.remove(`hidden`);
     };
-    
+
     let displayContact = () => {
         CVBODY.classList.add(`hidden`);
         INFORMATIONBODY.classList.add(`hidden`);
