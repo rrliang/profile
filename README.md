@@ -5,7 +5,8 @@
 
 ## ❖・Introduction・❖
 ### About this portfolio
-* Shares some of my projects
+* Shares some of my projects (WIP)
+* NOT optimized for Mobile (WIP)
 * Holds skillset details
 * Some fun facts about me!  
 
